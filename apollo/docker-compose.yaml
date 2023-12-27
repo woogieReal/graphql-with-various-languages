@@ -1,0 +1,15 @@
+version: '3.1'
+
+services:
+  apollo:
+    build:
+      dockerfile: ./Dockerfile
+    ports:
+      - "4005:4000"
+    volumes:
+      - .:/app
+      - apollo-node_modules:/app/node_modules
+    command: ["npm", "run", "start:dev"]
+
+volumes:
+  apollo-node_modules:
