@@ -4,7 +4,7 @@
 
 <br>
 
-# 각 디렉터리 기술 스택 설명
+# tech stack
 ## flask-sqlalchemy
 - Flask
 - Graphene-Python
