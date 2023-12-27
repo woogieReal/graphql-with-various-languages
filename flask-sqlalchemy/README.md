@@ -1,4 +1,4 @@
-# GraphQL + Flask + SQLAlchemy + Docker
+# Flask + Graphene-Python + SQLite + SQLAlchemy
 - [코드베이스: graphql-python](https://github.com/graphql-python/graphene-sqlalchemy/tree/master/examples/flask_sqlalchemy)
 - 위 코드를 도커 환경에서 실행되도록 하였음
 - `graphql-http-request.postman_collection.json` 파일에 호출 예시를 만들어 두었음
